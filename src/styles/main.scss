@@ -1,0 +1,26 @@
+:root {
+  --mainColor: #12345678;
+  --viewport-medium: width <= 50rem;
+}
+
+body {
+  color: var(--mainColor);
+  font-family: system-ui;
+  overflow-wrap: break-word;
+}
+
+a {
+  color: rgb(0 0 100% / 90%);
+
+  &:hover {
+    color: rebeccapurple;
+  }
+}
+
+
+body {
+  background-color: blue;
+}
+.test {
+  color: red;
+}
